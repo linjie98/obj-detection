@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+  .text{
+    text-align: center;
+  }
+</style>
+<center>
+    <hr>
+    <p class="text">Detection</p>
+    <p>p
+    <div class="upload-form">
+      <form action = "/uploaded" method = "POST" 
+        enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+      </form>
+    </div>
+</center> 
+{% endblock %}
