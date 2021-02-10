@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author   : linjie
+# detection: 基于yolov5+deepsort（目标跟踪）+Flask Video Streaming实现浏览器打开摄像头 进行目标跟踪
 import os
 import cv2
 from base_camera import BaseCamera
