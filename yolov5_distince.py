@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author   : linjie
+# detection: 基于yolov5社交距离
 import argparse
 
 from utils.datasets import *
