@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author   : linjie
+# detection: 基于yolov5+flask 网页端实现
 import os
 import cv2
 from base_camera import BaseCamera
