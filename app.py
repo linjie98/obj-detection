@@ -12,7 +12,7 @@ if os.environ.get('CAMERA'):
     Camera = import_module('camera_' + os.environ['CAMERA']).Camera
 else:
     from yolov5_flask import Camera
-from flask_cors import *
+# from flack_cors import *
 
 app = Flask(__name__)
 # UPLOAD_FOLDER = "C:\Users\Arpit Sharma\Desktop\Friendship goals\content\yolov5\static\uploads"
