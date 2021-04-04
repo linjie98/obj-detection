@@ -18,5 +18,6 @@ xxx :指视频路径（自备视频文件）
 
 #### 3、运行（含flask版本）
 - 在根目录下的app.py 修改from yolov5_flask import Camera 的包名（根据自己需求，这里采用yolov5_flask.py）
+    - 在浏览器使用摄像头就用：from camera import Camera
 - 运行:flask run
-- 浏览器访问:http://127.0.0.1:5000/index即可 
+- 浏览器访问:http://127.0.0.1:5000/index即可
