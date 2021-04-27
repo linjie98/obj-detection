@@ -21,3 +21,5 @@ xxx :指视频路径（自备视频文件）
     - 在浏览器使用摄像头就用：from camera import Camera
 - 运行:flask run
 - 浏览器访问:http://127.0.0.1:5000/index即可
+
+如果你有好的想法，欢迎发issue，或者参与本开源项目。
